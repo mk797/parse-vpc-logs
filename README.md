@@ -17,8 +17,8 @@ It outputs a result that shows the number of entries associated with each tag an
 
 Run the below commands
 1. clone this git repo
->  git clone
-2. set current directory as project directory
+>  git clone https://github.com/mk797/parse-vpc-logs.git
+2. set the current directory as the project directory
 >   cd parse-vpc-logs
 3. run the python progam
 >   python3 parse_vpc_logs.py
