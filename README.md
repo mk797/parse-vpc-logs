@@ -20,3 +20,14 @@ This program analyzes VPC flow logs and assigns tags to each entry based on a pr
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/mk797/parse-vpc-logs.git
+2. **Navigate to the project directory**:
+   ```bash
+cd parse-vpc-logs
+3. **Run the Python program**:
+```bash
+python3 parse_vpc_logs.py
+
+
+**View the output**:
+
+After running the program, the results will be saved in the output_results.txt file in the same directory.
