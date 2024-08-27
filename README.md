@@ -13,15 +13,15 @@ This program analyzes VPC flow logs and assigns tags to each entry based on a pr
 
 
 ## Assumptions and Considerations
-Log Format:
+**`Log Format`**:
 
 The program only supports the default log format as per AWS VPC Flow Logs documentation.
 Only version 2 of the VPC flow log format is supported.
 The log file must contain all the required fields as specified in the default format.
-Case Insensitivity:
+**`Case Insensitivity`**:
 
 The protocol values in the lookup table and flow logs are handled in a case-insensitive manner. The program converts all protocol values to lowercase before performing any comparisons.
-Unmatched Entries:
+**`Unmatched Entries`**:
 
 Entries that do not match any combination of dstport and protocol in the lookup table are tagged as "Untagged".
 Protocol Mapping:
