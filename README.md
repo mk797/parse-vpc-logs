@@ -26,10 +26,10 @@ The protocol values in the lookup table and flow logs are handled in a case-inse
 **`Unmatched Entries`**:
 
 Entries that do not match any combination of dstport and protocol in the lookup table are tagged as "Untagged".
-Protocol Mapping:
+**`Protocol Mapping`**:
 
 The program includes a basic protocol mapping for common protocols like TCP, UDP, and ICMP. Any protocols not listed in the predefined mapping are labeled as "unknown".
-Output Format:
+**`Output Format`**:
 
 The output file (output_results.txt) includes two sections:
 Tag Counts: A summary of the number of entries associated with each tag.
